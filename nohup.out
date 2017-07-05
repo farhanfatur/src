@@ -1,0 +1,935 @@
+
+> ghost@0.11.10 start /var/www/ghost
+> node index
+
+[31mWARNING: Ghost is attempting to use a direct method to send email. 
+It is recommended that you explicitly configure an email service.[0m
+[32mHelp and documentation can be found at https://docs.ghost.org/v0.11.9/docs/mail-config.[0m
+
+Ghost is running in production... 
+Your blog is now available on http://188.166.186.3 
+Ctrl+C to shut down
+Killed
+
+npm ERR! Linux 4.4.0-78-generic
+npm ERR! argv "/root/.nvm/versions/node/v6.11.0/bin/node" "/root/.nvm/versions/node/v6.11.0/bin/npm" "start" "--production"
+npm ERR! node v6.11.0
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! ghost@0.11.10 start: `node index`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the ghost@0.11.10 start script 'node index'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the ghost package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs ghost
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls ghost
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/ghost/npm-debug.log
+
+> ghost@0.11.10 start /var/www/ghost
+> node index
+
+[31mWARNING: Ghost is attempting to use a direct method to send email. 
+It is recommended that you explicitly configure an email service.[0m
+[32mHelp and documentation can be found at https://docs.ghost.org/v0.11.9/docs/mail-config.[0m
+
+Ghost is running in production... 
+Your blog is now available on http://kalipare.com 
+Ctrl+C to shut down
+
+ERROR: getaddrinfo EAI_AGAIN kalipare.com:80 
+ http://kalipare.com/ghost/img/ghosticon.jpg 
+ 
+ Error: getaddrinfo EAI_AGAIN kalipare.com:80
+    at Object.exports._errnoException (util.js:1018:11)
+    at errnoException (dns.js:33:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26) 
+
+127.0.0.1 - - [05/Jul/2017:10:38:03 +0000] "GET / HTTP/1.1" 200 4503 "-" "curl/7.47.0"
+127.0.0.1 - - [05/Jul/2017:11:19:20 +0000] "GET / HTTP/1.1" 200 4503 "-" "curl/7.47.0"
+127.0.0.1 - - [05/Jul/2017:11:19:26 +0000] "GET / HTTP/1.1" 200 4503 "-" "curl/7.47.0"
+127.0.0.1 - - [05/Jul/2017:11:21:36 +0000] "GET / HTTP/1.1" 200 4503 "-" "curl/7.47.0"
+127.0.0.1 - - [05/Jul/2017:11:24:20 +0000] "GET / HTTP/1.1" 200 4503 "-" "curl/7.47.0"
+127.0.0.1 - - [05/Jul/2017:11:26:52 +0000] "GET / HTTP/1.1" 200 4503 "-" "curl/7.47.0"
+Killed
+
+npm ERR! Linux 4.4.0-78-generic
+npm ERR! argv "/root/.nvm/versions/node/v6.11.0/bin/node" "/root/.nvm/versions/node/v6.11.0/bin/npm" "start" "--production"
+npm ERR! node v6.11.0
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! ghost@0.11.10 start: `node index`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the ghost@0.11.10 start script 'node index'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the ghost package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs ghost
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls ghost
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/ghost/npm-debug.log
+
+> ghost@0.11.10 start /var/www/ghost
+> node index
+
+[31mWARNING: Ghost is attempting to use a direct method to send email. 
+It is recommended that you explicitly configure an email service.[0m
+[32mHelp and documentation can be found at https://docs.ghost.org/v0.11.9/docs/mail-config.[0m
+
+Ghost is running in production... 
+Your blog is now available on http://kalipare.com 
+Ctrl+C to shut down
+
+ERROR: getaddrinfo EAI_AGAIN kalipare.com:80 
+ http://kalipare.com/ghost/img/ghosticon.jpg 
+ 
+ Error: getaddrinfo EAI_AGAIN kalipare.com:80
+    at Object.exports._errnoException (util.js:1018:11)
+    at errnoException (dns.js:33:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26) 
+
+127.0.0.1 - - [05/Jul/2017:11:29:17 +0000] "GET / HTTP/1.1" 200 4503 "-" "curl/7.47.0"
+36.84.185.31 - - [05/Jul/2017:11:29:21 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:29:21 +0000] "GET /assets/js/jquery.fitvids.js?v=f0f9507254 HTTP/1.1" 200 - "http://188.166.186.3/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:29:21 +0000] "GET /assets/css/screen.css?v=f0f9507254 HTTP/1.1" 200 - "http://188.166.186.3/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:29:21 +0000] "GET /assets/js/index.js?v=f0f9507254 HTTP/1.1" 200 - "http://188.166.186.3/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:29:21 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.1" 200 2580 "http://188.166.186.3/assets/css/screen.css?v=f0f9507254" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:29:42 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:29:48 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:29:53 +0000] "GET /ghost HTTP/1.1" 301 169 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:29:53 +0000] "GET /ghost/ HTTP/1.1" 302 70 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:29:54 +0000] "GET /ghost/setup/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:29:55 +0000] "GET /ghost/vendor.min.css?v=f0f9507254 HTTP/1.1" 200 - "http://188.166.186.3/ghost/setup/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:29:55 +0000] "GET /ghost/ghost.min.css?v=f0f9507254 HTTP/1.1" 200 - "http://188.166.186.3/ghost/setup/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:29:55 +0000] "GET /ghost/ghost.min.js?v=f0f9507254 HTTP/1.1" 200 - "http://188.166.186.3/ghost/setup/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:29:55 +0000] "GET /ghost/vendor.min.js?v=f0f9507254 HTTP/1.1" 200 - "http://188.166.186.3/ghost/setup/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:29:56 +0000] "GET /ghost/api/v0.1/authentication/setup/ HTTP/1.1" 200 28 "http://188.166.186.3/ghost/setup/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:29:56 +0000] "GET /ghost/img/install-welcome.png HTTP/1.1" 200 240204 "http://188.166.186.3/ghost/setup/one/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:30:00 +0000] "GET /ghost/fonts/ghosticons.woff HTTP/1.1" 200 22496 "http://188.166.186.3/ghost/ghost.min.css?v=f0f9507254" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:30:00 +0000] "GET /ghost/img/user-image.png HTTP/1.1" 200 2421 "http://188.166.186.3/ghost/setup/two/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:30:04 +0000] "GET /ghost/setup/two/ HTTP/1.1" 200 - "http://188.166.186.3/ghost/setup/two/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:30:16 +0000] "POST /ghost/api/v0.1/authentication/setup/ HTTP/1.1" 201 571 "http://188.166.186.3/ghost/setup/two/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:30:16 +0000] "POST /ghost/api/v0.1/authentication/token HTTP/1.1" 200 - "http://188.166.186.3/ghost/setup/two/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:30:17 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.1" 200 - "http://188.166.186.3/ghost/setup/two/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:30:17 +0000] "GET /ghost/img/users.png HTTP/1.1" 200 49253 "http://188.166.186.3/ghost/setup/three/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:30:17 +0000] "GET /ghost/img/invite-placeholder.png HTTP/1.1" 200 7860 "http://188.166.186.3/ghost/ghost.min.css?v=f0f9507254" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:30:22 +0000] "GET /ghost/api/v0.1/roles/ HTTP/1.1" 200 847 "http://188.166.186.3/ghost/setup/three/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+
+ERROR: User is already registered. 
+ 
+ Error
+    at Error.BadRequestError (/var/www/ghost/core/server/errors/bad-request-error.js:6:18)
+    at .<anonymous> (/var/www/ghost/core/server/api/users.js:317:47)
+    at tryCatcher (/var/www/ghost/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/var/www/ghost/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/var/www/ghost/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/var/www/ghost/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/var/www/ghost/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/var/www/ghost/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/var/www/ghost/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/var/www/ghost/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5) 
+
+36.84.185.31 - - [05/Jul/2017:11:30:22 +0000] "POST /ghost/api/v0.1/users/?include=roles HTTP/1.1" 400 84 "http://188.166.186.3/ghost/setup/three/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:30:23 +0000] "GET /ghost/api/v0.1/users/me/?include=roles&status=all HTTP/1.1" 200 810 "http://188.166.186.3/ghost/setup/three/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:30:23 +0000] "GET /ghost/api/v0.1/notifications/ HTTP/1.1" 200 20 "http://188.166.186.3/ghost/setup/three/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:30:23 +0000] "GET /ghost/api/v0.1/posts/?page=1&limit=15&status=all&staticPages=all&include=tags HTTP/1.1" 200 - "http://188.166.186.3/ghost/setup/three/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:30:23 +0000] "GET /ghost/img/ghosticon.jpg HTTP/1.1" 200 2499 "http://188.166.186.3/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:30:33 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:30:35 +0000] "GET /welcome-to-ghost/ HTTP/1.1" 200 - "http://188.166.186.3/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:42:12 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:42:12 +0000] "GET /assets/css/screen.css?v=f0f9507254 HTTP/1.1" 200 - "http://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:42:12 +0000] "GET /assets/js/jquery.fitvids.js?v=f0f9507254 HTTP/1.1" 200 - "http://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:42:12 +0000] "GET /assets/js/index.js?v=f0f9507254 HTTP/1.1" 200 - "http://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:42:12 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.1" 200 2580 "http://kalipare.com/assets/css/screen.css?v=f0f9507254" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:11:42:13 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+66.133.109.36 - - [05/Jul/2017:11:49:18 +0000] "GET /.well-known/acme-challenge/ZPJ3Vf9joJOhEigqAwMlyy2j-xCH-FD47OfoiRwN5IY HTTP/1.1" 301 - "-" "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"
+66.133.109.36 - - [05/Jul/2017:11:49:18 +0000] "GET /.well-known/acme-challenge/GIMlOEXlMnbeo5tSbjvO41x059yvJnNRuYIEBnkQtDk HTTP/1.1" 301 - "-" "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"
+66.133.109.36 - - [05/Jul/2017:11:49:19 +0000] "GET /.well-known/acme-challenge/ZPJ3Vf9joJOhEigqAwMlyy2j-xCH-FD47OfoiRwN5IY/ HTTP/1.1" 301 106 "http://kalipare.com/.well-known/acme-challenge/ZPJ3Vf9joJOhEigqAwMlyy2j-xCH-FD47OfoiRwN5IY" "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"
+66.133.109.36 - - [05/Jul/2017:11:49:19 +0000] "GET /.well-known/acme-challenge/GIMlOEXlMnbeo5tSbjvO41x059yvJnNRuYIEBnkQtDk/ HTTP/1.1" 301 106 "http://www.kalipare.com/.well-known/acme-challenge/GIMlOEXlMnbeo5tSbjvO41x059yvJnNRuYIEBnkQtDk" "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"
+66.133.109.36 - - [05/Jul/2017:11:49:19 +0000] "GET /.well-known/acme-challenge/zpj3vf9jojoheigqawmlyy2j-xch-fd47ofoirwn5iy/ HTTP/1.1" 404 - "http://kalipare.com/.well-known/acme-challenge/ZPJ3Vf9joJOhEigqAwMlyy2j-xCH-FD47OfoiRwN5IY/" "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"
+66.133.109.36 - - [05/Jul/2017:11:49:19 +0000] "GET /.well-known/acme-challenge/gimloexlmnbeo5tsbjvo41x059yvjnnruyiebnkqtdk/ HTTP/1.1" 404 - "http://www.kalipare.com/.well-known/acme-challenge/GIMlOEXlMnbeo5tSbjvO41x059yvJnNRuYIEBnkQtDk/" "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"
+36.84.185.31 - - [05/Jul/2017:12:06:26 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:06:27 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+Killed
+
+npm ERR! Linux 4.4.0-78-generic
+npm ERR! argv "/root/.nvm/versions/node/v6.11.0/bin/node" "/root/.nvm/versions/node/v6.11.0/bin/npm" "start" "--production"
+npm ERR! node v6.11.0
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! ghost@0.11.10 start: `node index`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the ghost@0.11.10 start script 'node index'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the ghost package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs ghost
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls ghost
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/ghost/npm-debug.log
+
+> ghost@0.11.10 start /var/www/ghost
+> node index
+
+[31mWARNING: Ghost is attempting to use a direct method to send email. 
+It is recommended that you explicitly configure an email service.[0m
+[32mHelp and documentation can be found at https://docs.ghost.org/v0.11.9/docs/mail-config.[0m
+
+
+ERROR: (EADDRINUSE) Cannot start Ghost. 
+ Port 80 is already in use by another program. 
+ Is another Ghost instance already running? 
+
+
+npm ERR! Linux 4.4.0-78-generic
+npm ERR! argv "/root/.nvm/versions/node/v6.11.0/bin/node" "/root/.nvm/versions/node/v6.11.0/bin/npm" "start" "--production"
+npm ERR! node v6.11.0
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! ghost@0.11.10 start: `node index`
+npm ERR! Exit status 255
+npm ERR! 
+npm ERR! Failed at the ghost@0.11.10 start script 'node index'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the ghost package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs ghost
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls ghost
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/ghost/npm-debug.log
+
+> ghost@0.11.10 start /var/www/ghost
+> node index
+
+[31mWARNING: Ghost is attempting to use a direct method to send email. 
+It is recommended that you explicitly configure an email service.[0m
+[32mHelp and documentation can be found at https://docs.ghost.org/v0.11.9/docs/mail-config.[0m
+
+Ghost is running in production... 
+Your blog is now available on http://kalipare.com 
+Ctrl+C to shut down
+188.166.186.3 - - [05/Jul/2017:12:09:49 +0000] "GET /ghost/img/ghosticon.jpg HTTP/1.0" 200 2499 "-" "Mozilla/5.0"
+36.84.185.31 - - [05/Jul/2017:12:09:49 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:09:50 +0000] "GET /assets/css/screen.css?v=1ee241a52f HTTP/1.0" 200 - "http://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:09:50 +0000] "GET /assets/js/jquery.fitvids.js?v=1ee241a52f HTTP/1.0" 200 - "http://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:09:50 +0000] "GET /assets/js/index.js?v=1ee241a52f HTTP/1.0" 200 - "http://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:09:51 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:09:51 +0000] "GET /favicon.ico HTTP/1.0" 200 - "http://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:09:51 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:09:52 +0000] "GET /favicon.ico HTTP/1.0" 200 - "http://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+66.133.109.36 - - [05/Jul/2017:12:10:18 +0000] "GET /.well-known/acme-challenge/DACnQPbP3yhUf1xZF79Nakn_VO3H-NTYJIg1ragieHs HTTP/1.0" 301 - "-" "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"
+66.133.109.36 - - [05/Jul/2017:12:10:18 +0000] "GET /.well-known/acme-challenge/BrHm7Kd4m6IFxRAWywU_wfHFNWIpnnSQB7cyOa89MEo HTTP/1.0" 301 - "-" "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"
+66.133.109.36 - - [05/Jul/2017:12:10:18 +0000] "GET /.well-known/acme-challenge/DACnQPbP3yhUf1xZF79Nakn_VO3H-NTYJIg1ragieHs/ HTTP/1.0" 301 106 "http://kalipare.com/.well-known/acme-challenge/DACnQPbP3yhUf1xZF79Nakn_VO3H-NTYJIg1ragieHs" "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"
+66.133.109.36 - - [05/Jul/2017:12:10:18 +0000] "GET /.well-known/acme-challenge/BrHm7Kd4m6IFxRAWywU_wfHFNWIpnnSQB7cyOa89MEo/ HTTP/1.0" 301 106 "http://www.kalipare.com/.well-known/acme-challenge/BrHm7Kd4m6IFxRAWywU_wfHFNWIpnnSQB7cyOa89MEo" "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"
+66.133.109.36 - - [05/Jul/2017:12:10:19 +0000] "GET /.well-known/acme-challenge/dacnqpbp3yhuf1xzf79nakn_vo3h-ntyjig1ragiehs/ HTTP/1.0" 404 - "http://kalipare.com/.well-known/acme-challenge/DACnQPbP3yhUf1xZF79Nakn_VO3H-NTYJIg1ragieHs/" "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"
+66.133.109.36 - - [05/Jul/2017:12:10:19 +0000] "GET /.well-known/acme-challenge/brhm7kd4m6ifxrawywu_wfhfnwipnnsqb7cyoa89meo/ HTTP/1.0" 404 - "http://www.kalipare.com/.well-known/acme-challenge/BrHm7Kd4m6IFxRAWywU_wfHFNWIpnnSQB7cyOa89MEo/" "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"
+36.84.185.31 - - [05/Jul/2017:12:15:11 +0000] "GET /favicon.ico HTTP/1.0" 200 - "http://www.kalipare.com/.well-known" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:15:14 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:15:14 +0000] "GET /assets/css/screen.css?v=1ee241a52f HTTP/1.0" 200 - "http://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:15:14 +0000] "GET /assets/js/index.js?v=1ee241a52f HTTP/1.0" 200 - "http://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:15:14 +0000] "GET /assets/js/jquery.fitvids.js?v=1ee241a52f HTTP/1.0" 200 - "http://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:15:14 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.0" 200 2580 "http://www.kalipare.com/assets/css/screen.css?v=1ee241a52f" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:17:52 +0000] "GET /favicon.ico HTTP/1.0" 200 - "http://kalipare.com/.well-known/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:17:53 +0000] "GET /favicon.ico HTTP/1.0" 200 - "http://kalipare.com/.well-known/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:17:53 +0000] "GET /favicon.ico HTTP/1.0" 200 - "http://kalipare.com/.well-known/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:17:53 +0000] "GET /favicon.ico HTTP/1.0" 200 - "http://kalipare.com/.well-known/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:23:32 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:30:21 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:30:22 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:30:22 +0000] "GET /favicon.ico HTTP/1.0" 200 - "http://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+Killed
+
+npm ERR! Linux 4.4.0-78-generic
+npm ERR! argv "/root/.nvm/versions/node/v6.11.0/bin/node" "/root/.nvm/versions/node/v6.11.0/bin/npm" "start" "--production"
+npm ERR! node v6.11.0
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! ghost@0.11.10 start: `node index`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the ghost@0.11.10 start script 'node index'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the ghost package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs ghost
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls ghost
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/ghost/npm-debug.log
+
+> ghost@0.11.10 start /var/www/ghost
+> node index
+
+[31mWARNING: Ghost is attempting to use a direct method to send email. 
+It is recommended that you explicitly configure an email service.[0m
+[32mHelp and documentation can be found at https://docs.ghost.org/v0.11.9/docs/mail-config.[0m
+
+Ghost is running in production... 
+Your blog is now available on http://kalipare.com 
+Ctrl+C to shut down
+
+> ghost@0.11.10 start /var/www/ghost
+> node index
+
+[31mWARNING: Ghost is attempting to use a direct method to send email. 
+It is recommended that you explicitly configure an email service.[0m
+[32mHelp and documentation can be found at https://docs.ghost.org/v0.11.9/docs/mail-config.[0m
+
+Ghost is running in production... 
+Your blog is now available on http://kalipare.com 
+Ctrl+C to shut down
+
+Ghost has shut down
+
+Your blog is now offline
+Killed
+
+npm ERR! Linux 4.4.0-78-generic
+npm ERR! argv "/root/.nvm/versions/node/v6.11.0/bin/node" "/root/.nvm/versions/node/v6.11.0/bin/npm" "start" "--production"
+npm ERR! node v6.11.0
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! ghost@0.11.10 start: `node index`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the ghost@0.11.10 start script 'node index'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the ghost package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs ghost
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls ghost
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /var/www/ghost/npm-debug.log
+
+> ghost@0.11.10 start /var/www/ghost
+> node index
+
+[31mWARNING: Ghost is attempting to use a direct method to send email. 
+It is recommended that you explicitly configure an email service.[0m
+[32mHelp and documentation can be found at https://docs.ghost.org/v0.11.9/docs/mail-config.[0m
+
+Ghost is running in production... 
+Your blog is now available on http://kalipare.com 
+Ctrl+C to shut down
+
+Ghost has shut down
+
+Your blog is now offline
+
+> ghost@0.11.10 start /var/www/ghost
+> node index
+
+[31mWARNING: Ghost is attempting to use a direct method to send email. 
+It is recommended that you explicitly configure an email service.[0m
+[32mHelp and documentation can be found at https://docs.ghost.org/v0.11.9/docs/mail-config.[0m
+
+Ghost is running in production... 
+Your blog is now available on http://kalipare.com 
+Ctrl+C to shut down
+
+ERROR: Unknown Request error. 
+ http://kalipare.com/ghost/img/ghosticon.jpg 
+ 
+ Error: Unknown Request error.
+    at IncomingMessage.<anonymous> (/var/www/ghost/core/server/utils/image-size-from-url.js:79:31)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:128:9) 
+
+36.84.185.31 - - [05/Jul/2017:12:49:19 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:49:19 +0000] "GET /assets/css/screen.css?v=befb449b9c HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:49:20 +0000] "GET /assets/js/jquery.fitvids.js?v=befb449b9c HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:49:20 +0000] "GET /assets/js/index.js?v=befb449b9c HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:49:20 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.0" 200 2580 "https://kalipare.com/assets/css/screen.css?v=befb449b9c" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:49:21 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+64.41.200.108 - - [05/Jul/2017:12:55:00 +0000] "GET / HTTP/1.0" 200 4718 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0"
+36.84.185.31 - - [05/Jul/2017:12:57:34 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:57:34 +0000] "GET /assets/css/screen.css?v=befb449b9c HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:57:34 +0000] "GET /assets/js/jquery.fitvids.js?v=befb449b9c HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:57:34 +0000] "GET /assets/js/index.js?v=befb449b9c HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:57:34 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.0" 200 2580 "https://kalipare.com/assets/css/screen.css?v=befb449b9c" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:57:36 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:57:36 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:57:42 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:57:48 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4"
+36.84.185.31 - - [05/Jul/2017:12:57:48 +0000] "GET /assets/css/screen.css?v=befb449b9c HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4"
+36.84.185.31 - - [05/Jul/2017:12:57:48 +0000] "GET /assets/js/jquery.fitvids.js?v=befb449b9c HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4"
+36.84.185.31 - - [05/Jul/2017:12:57:48 +0000] "GET /assets/js/index.js?v=befb449b9c HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4"
+36.84.185.31 - - [05/Jul/2017:12:57:50 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.0" 200 2580 "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4"
+36.84.185.31 - - [05/Jul/2017:12:57:50 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4"
+36.84.185.31 - - [05/Jul/2017:12:57:57 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:57:57 +0000] "GET /assets/js/jquery.fitvids.js?v=befb449b9c HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:57:57 +0000] "GET /assets/css/screen.css?v=befb449b9c HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:57:58 +0000] "GET /assets/js/index.js?v=befb449b9c HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:57:58 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.0" 200 2580 "https://www.kalipare.com/assets/css/screen.css?v=befb449b9c" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:57:58 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:58:00 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:59:56 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:59:56 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:59:57 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:12:59:57 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:00 +0000] "GET /welcome-to-ghost/ HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:06 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:10 +0000] "GET /ghost HTTP/1.0" 301 169 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:10 +0000] "GET /ghost/ HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:10 +0000] "GET /ghost/vendor.min.css?v=befb449b9c HTTP/1.0" 200 - "https://kalipare.com/ghost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:10 +0000] "GET /ghost/ghost.min.css?v=befb449b9c HTTP/1.0" 200 - "https://kalipare.com/ghost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:11 +0000] "GET /ghost/ghost.min.js?v=befb449b9c HTTP/1.0" 200 - "https://kalipare.com/ghost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:11 +0000] "GET /ghost/vendor.min.js?v=befb449b9c HTTP/1.0" 200 - "https://kalipare.com/ghost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:12 +0000] "GET /ghost/fonts/ghosticons.woff HTTP/1.0" 200 22496 "https://kalipare.com/ghost/ghost.min.css?v=befb449b9c" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:18 +0000] "POST /ghost/api/v0.1/authentication/token HTTP/1.0" 200 - "https://kalipare.com/ghost/signin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:18 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/signin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:18 +0000] "GET /ghost/api/v0.1/users/me/?include=roles&status=all HTTP/1.0" 200 810 "https://kalipare.com/ghost/signin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:18 +0000] "GET /ghost/api/v0.1/notifications/ HTTP/1.0" 200 20 "https://kalipare.com/ghost/signin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:18 +0000] "GET /ghost/api/v0.1/posts/?page=1&limit=15&status=all&staticPages=all&include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/signin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:19 +0000] "GET /ghost/img/ghosticon.jpg HTTP/1.0" 200 2499 "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:25 +0000] "GET /ghost/api/v0.1/posts/1/?status=all&staticPages=all&include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:25 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:25 +0000] "GET /ghost/api/v0.1/tags/?limit=all HTTP/1.0" 200 426 "https://kalipare.com/ghost/editor/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:25 +0000] "GET /ghost/api/v0.1/users/?limit=all&include=roles HTTP/1.0" 200 901 "https://kalipare.com/ghost/editor/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:31 +0000] "GET /ghost/api/v0.1/configuration/timezones/ HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:00:31 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:01:41 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:01:43 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:04:36 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:04:39 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:04:41 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:04:54 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:04:54 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:04:55 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:04:55 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:05:15 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:05:16 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:05:17 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:05:17 +0000] "GET /assets/css/screen.css?v=befb449b9c HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:05:18 +0000] "GET /assets/js/jquery.fitvids.js?v=befb449b9c HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:05:18 +0000] "GET /assets/js/index.js?v=befb449b9c HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:05:18 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.0" 200 2580 "https://www.kalipare.com/assets/css/screen.css?v=befb449b9c" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:05:19 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:06:04 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:06:04 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:06:05 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:06:05 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:06:06 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:07:50 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:07:50 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:07:53 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:07:54 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:07:54 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:08:05 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:08:10 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:09:06 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:09:06 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:09:11 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:10:06 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:10:08 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:10:18 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:10:19 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:10:19 +0000] "GET /assets/css/screen.css?v=befb449b9c HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:10:20 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.0" 200 2580 "https://kalipare.com/assets/css/screen.css?v=befb449b9c" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:10:21 +0000] "GET /assets/js/jquery.fitvids.js?v=befb449b9c HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:10:21 +0000] "GET /assets/js/index.js?v=befb449b9c HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:10:21 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:10:23 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4"
+36.84.185.31 - - [05/Jul/2017:13:10:24 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4"
+36.84.185.31 - - [05/Jul/2017:13:10:25 +0000] "GET /assets/css/screen.css?v=befb449b9c HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4"
+36.84.185.31 - - [05/Jul/2017:13:10:25 +0000] "GET /assets/js/jquery.fitvids.js?v=befb449b9c HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4"
+36.84.185.31 - - [05/Jul/2017:13:10:25 +0000] "GET /assets/js/index.js?v=befb449b9c HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4"
+36.84.185.31 - - [05/Jul/2017:13:10:25 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.0" 200 2580 "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4"
+36.84.185.31 - - [05/Jul/2017:13:10:25 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4"
+36.84.185.31 - - [05/Jul/2017:13:14:09 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:14:13 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:14:14 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:14:14 +0000] "GET /assets/css/screen.css?v=befb449b9c HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:14:15 +0000] "GET /assets/js/jquery.fitvids.js?v=befb449b9c HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:14:15 +0000] "GET /assets/js/index.js?v=befb449b9c HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:14:15 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.0" 200 2580 "https://www.kalipare.com/assets/css/screen.css?v=befb449b9c" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:14:16 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:14:28 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:19:02 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:19:09 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:19:14 +0000] "GET / HTTP/1.0" 304 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:19:37 +0000] "GET /welcome-to-ghost/ HTTP/1.0" 304 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:19:44 +0000] "GET /author/noval/ HTTP/1.0" 200 - "https://kalipare.com/welcome-to-ghost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:19:53 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:20:22 +0000] "GET /welcome-to-ghost/ HTTP/1.0" 304 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:20:26 +0000] "GET /ghost/ HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:20:29 +0000] "POST /ghost/api/v0.1/authentication/token HTTP/1.0" 200 - "https://kalipare.com/ghost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:20:29 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:20:30 +0000] "GET /ghost/api/v0.1/users/me/?include=roles&status=all HTTP/1.0" 200 810 "https://kalipare.com/ghost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:20:30 +0000] "GET /ghost/api/v0.1/notifications/ HTTP/1.0" 200 20 "https://kalipare.com/ghost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:20:30 +0000] "GET /ghost/api/v0.1/posts/?page=1&limit=15&status=all&staticPages=all&include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:27:17 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:27:18 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:27:18 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:27:20 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:27:30 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:27:30 +0000] "GET /assets/css/screen.css?v=befb449b9c HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:27:31 +0000] "GET /assets/js/jquery.fitvids.js?v=befb449b9c HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:27:31 +0000] "GET /assets/js/index.js?v=befb449b9c HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:27:32 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.0" 200 2580 "https://kalipare.com/assets/css/screen.css?v=befb449b9c" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:27:32 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:27:52 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:28:19 +0000] "GET / HTTP/1.0" 200 4703 "-" "curl/7.51.0"
+36.84.185.31 - - [05/Jul/2017:13:29:28 +0000] "GET /welcome-to-ghost/ HTTP/1.0" 304 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:29:33 +0000] "GET /ghost/ HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:29:33 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:29:33 +0000] "POST /ghost/api/v0.1/authentication/token HTTP/1.0" 200 - "https://kalipare.com/ghost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:29:34 +0000] "GET /ghost/api/v0.1/users/me/?include=roles&status=all HTTP/1.0" 200 810 "https://kalipare.com/ghost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:29:34 +0000] "GET /ghost/api/v0.1/notifications/ HTTP/1.0" 200 20 "https://kalipare.com/ghost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:29:34 +0000] "GET /ghost/api/v0.1/posts/?page=1&limit=15&status=all&staticPages=all&include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:29:39 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:29:39 +0000] "GET /ghost/api/v0.1/tags/?limit=all HTTP/1.0" 200 426 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:29:39 +0000] "GET /ghost/api/v0.1/users/?limit=all&include=roles HTTP/1.0" 200 901 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:29:44 +0000] "GET /ghost/api/v0.1/slugs/post/Setup%20/ HTTP/1.0" 301 70 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:29:44 +0000] "GET /ghost/api/v0.1/slugs/post/setup%20/ HTTP/1.0" 200 33 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:29:47 +0000] "GET /ghost/api/v0.1/slugs/post/Setup%20G/ HTTP/1.0" 301 71 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:29:47 +0000] "GET /ghost/api/v0.1/slugs/post/setup%20g/ HTTP/1.0" 200 30 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:29:48 +0000] "GET /ghost/api/v0.1/slugs/post/Setup%20Ghost/ HTTP/1.0" 301 75 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:29:48 +0000] "GET /ghost/api/v0.1/slugs/post/setup%20ghost/ HTTP/1.0" 200 34 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:29:50 +0000] "GET /ghost/api/v0.1/slugs/post/Setup%20Ghost%2C%20/ HTTP/1.0" 301 81 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:29:50 +0000] "GET /ghost/api/v0.1/slugs/post/setup%20ghost%2c%20/ HTTP/1.0" 200 34 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:29:57 +0000] "GET /ghost/api/v0.1/slugs/post/Setup%20Ghost%2C%20Ubuntu%20Digital%20Ocean/ HTTP/1.0" 301 105 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:29:57 +0000] "GET /ghost/api/v0.1/slugs/post/setup%20ghost%2c%20ubuntu%20digital%20ocean/ HTTP/1.0" 200 55 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:02 +0000] "GET /ghost/api/v0.1/slugs/post/Setup%20Ghost%2C%20SSL%20LetUbuntu%20Digital%20Ocean/ HTTP/1.0" 301 114 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:02 +0000] "GET /ghost/api/v0.1/slugs/post/setup%20ghost%2c%20ssl%20letubuntu%20digital%20ocean/ HTTP/1.0" 200 62 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:03 +0000] "GET /ghost/api/v0.1/slugs/post/Setup%20Ghost%2C%20SSL%20LetsUbuntu%20Digital%20Ocean/ HTTP/1.0" 301 115 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:03 +0000] "GET /ghost/api/v0.1/slugs/post/setup%20ghost%2c%20ssl%20letsubuntu%20digital%20ocean/ HTTP/1.0" 200 63 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:16 +0000] "GET /ghost/api/v0.1/slugs/post/Setup%20Ghost%2C%20Let%E2%80%99s%20Encrypt%20%2C%20Ubuntu%20Digital%20Ocean/ HTTP/1.0" 301 137 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:16 +0000] "GET /ghost/api/v0.1/slugs/post/setup%20ghost%2c%20let%e2%80%99s%20encrypt%20%2c%20ubuntu%20digital%20ocean/ HTTP/1.0" 200 68 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:18 +0000] "GET /ghost/api/v0.1/slugs/post/Setup%20Ghost%2C%20Let%E2%80%99s%20Encrypt%2C%20Ubuntu%20Digital%20Ocean/ HTTP/1.0" 301 134 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:18 +0000] "GET /ghost/api/v0.1/slugs/post/setup%20ghost%2c%20let%e2%80%99s%20encrypt%2c%20ubuntu%20digital%20ocean/ HTTP/1.0" 200 68 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:20 +0000] "GET /ghost/api/v0.1/slugs/post/setup%20ghost%2c%20let%e2%80%99s%20encrypt%2c%20ubuntu%20digital%20ocean/ HTTP/1.0" 200 68 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:24 +0000] "GET /ghost/api/v0.1/slugs/post/Setup%20BlogGhost%2C%20Let%E2%80%99s%20Encrypt%2C%20Ubuntu%20Digital%20Ocean/ HTTP/1.0" 301 138 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:24 +0000] "GET /ghost/api/v0.1/slugs/post/setup%20blogghost%2c%20let%e2%80%99s%20encrypt%2c%20ubuntu%20digital%20ocean/ HTTP/1.0" 200 72 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:25 +0000] "GET /ghost/api/v0.1/slugs/post/Setup%20Blog%20Ghost%2C%20Let%E2%80%99s%20Encrypt%2C%20Ubuntu%20Digital%20Ocean/ HTTP/1.0" 301 141 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:25 +0000] "GET /ghost/api/v0.1/slugs/post/setup%20blog%20ghost%2c%20let%e2%80%99s%20encrypt%2c%20ubuntu%20digital%20ocean/ HTTP/1.0" 200 73 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:27 +0000] "GET /ghost/api/v0.1/slugs/post/setup%20ghost%2c%20let%e2%80%99s%20encrypt%2c%20ubuntu%20digital%20ocean/ HTTP/1.0" 200 68 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:29 +0000] "GET /ghost/api/v0.1/slugs/post/Instalasi%20Ghost%2C%20Let%E2%80%99s%20Encrypt%2C%20Ubuntu%20Digital%20Ocean/ HTTP/1.0" 301 138 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:29 +0000] "GET /ghost/api/v0.1/slugs/post/instalasi%20ghost%2c%20let%e2%80%99s%20encrypt%2c%20ubuntu%20digital%20ocean/ HTTP/1.0" 200 72 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:31 +0000] "GET /ghost/api/v0.1/slugs/post/Instalasi%20Ghost%2C%20SSL%20Let%E2%80%99s%20Encrypt%2C%20Ubuntu%20Digital%20Ocean/ HTTP/1.0" 301 144 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:31 +0000] "GET /ghost/api/v0.1/slugs/post/instalasi%20ghost%2c%20ssl%20let%e2%80%99s%20encrypt%2c%20ubuntu%20digital%20ocean/ HTTP/1.0" 200 76 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:45 +0000] "GET /ghost/api/v0.1/slugs/post/%20Ghost%2C%20SSL%20Let%E2%80%99s%20Encrypt%2C%20Ubuntu%20Digital%20Ocean/ HTTP/1.0" 301 135 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:46 +0000] "GET /ghost/api/v0.1/slugs/post/%20ghost%2c%20ssl%20let%e2%80%99s%20encrypt%2c%20ubuntu%20digital%20ocean/ HTTP/1.0" 200 66 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:47 +0000] "GET /ghost/api/v0.1/slugs/post/Install%20Ghost%2C%20SSL%20Let%E2%80%99s%20Encrypt%2C%20Ubuntu%20Digital%20Ocean/ HTTP/1.0" 301 142 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:47 +0000] "GET /ghost/api/v0.1/slugs/post/install%20ghost%2c%20ssl%20let%e2%80%99s%20encrypt%2c%20ubuntu%20digital%20ocean/ HTTP/1.0" 200 74 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:30:50 +0000] "POST /ghost/api/v0.1/posts/?include=tags HTTP/1.0" 201 622 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:36:58 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+
+> ghost@0.11.10 start /var/www/ghost
+> node index
+
+[31mWARNING: Ghost is attempting to use a direct method to send email. 
+It is recommended that you explicitly configure an email service.[0m
+[32mHelp and documentation can be found at https://docs.ghost.org/v0.11.9/docs/mail-config.[0m
+
+Ghost is running in production... 
+Your blog is now available on http://kalipare.com 
+Ctrl+C to shut down
+36.84.185.31 - - [05/Jul/2017:13:41:10 +0000] "GET /ghost/editor/ HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:10 +0000] "GET /ghost/vendor.min.css?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:10 +0000] "GET /ghost/ghost.min.css?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:11 +0000] "GET /ghost/ghost.min.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:11 +0000] "GET /ghost/vendor.min.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:13 +0000] "POST /ghost/api/v0.1/authentication/token HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:13 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:13 +0000] "GET /ghost/api/v0.1/users/me/?include=roles&status=all HTTP/1.0" 200 810 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:13 +0000] "GET /ghost/api/v0.1/notifications/ HTTP/1.0" 200 20 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:14 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:14 +0000] "GET /ghost/api/v0.1/tags/?limit=all HTTP/1.0" 200 426 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:14 +0000] "GET /ghost/api/v0.1/users/?limit=all&include=roles HTTP/1.0" 200 901 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:15 +0000] "GET /ghost/editor/ HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:16 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:16 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:16 +0000] "POST /ghost/api/v0.1/authentication/token HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:16 +0000] "GET /ghost/api/v0.1/users/me/?include=roles&status=all HTTP/1.0" 200 810 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:16 +0000] "GET /ghost/api/v0.1/notifications/ HTTP/1.0" 200 20 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:17 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:17 +0000] "GET /ghost/api/v0.1/tags/?limit=all HTTP/1.0" 200 426 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:17 +0000] "GET /ghost/api/v0.1/users/?limit=all&include=roles HTTP/1.0" 200 901 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+
+ERROR: Unknown Request error. 
+ http://kalipare.com/ghost/img/ghosticon.jpg 
+ 
+ Error: Unknown Request error.
+    at IncomingMessage.<anonymous> (/var/www/ghost/core/server/utils/image-size-from-url.js:79:31)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:128:9) 
+
+36.84.185.31 - - [05/Jul/2017:13:41:20 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:20 +0000] "GET /assets/css/screen.css?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:20 +0000] "GET /assets/js/jquery.fitvids.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:20 +0000] "GET /assets/js/index.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:55 +0000] "GET /ghost/settings/general/ HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:56 +0000] "POST /ghost/api/v0.1/authentication/token HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:56 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:56 +0000] "GET /ghost/api/v0.1/users/me/?include=roles&status=all HTTP/1.0" 200 810 "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:56 +0000] "GET /ghost/api/v0.1/configuration/timezones/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:56 +0000] "GET /ghost/api/v0.1/notifications/ HTTP/1.0" 200 20 "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:41:56 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:42:17 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:42:27 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:42:27 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:42:31 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:42:32 +0000] "GET /assets/css/screen.css?v=520a93ff7d HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:42:32 +0000] "GET /assets/js/jquery.fitvids.js?v=520a93ff7d HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:42:32 +0000] "GET /assets/js/index.js?v=520a93ff7d HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:42:51 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:42:52 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+36.84.185.31 - - [05/Jul/2017:13:42:53 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:24:37 +0000] "POST /ghost/api/v0.1/authentication/token HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:24:37 +0000] "POST /ghost/api/v0.1/authentication/token HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:25:41 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:25:42 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:25:42 +0000] "GET /assets/css/screen.css?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:25:43 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:25:43 +0000] "GET /assets/js/jquery.fitvids.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:25:43 +0000] "GET /assets/js/index.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:25:43 +0000] "GET /assets/css/screen.css?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:25:43 +0000] "GET /assets/js/jquery.fitvids.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:25:43 +0000] "GET /assets/js/index.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:25:43 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.0" 200 2580 "https://kalipare.com/assets/css/screen.css?v=520a93ff7d" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:25:43 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:25:44 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:25:44 +0000] "GET /assets/css/screen.css?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:25:44 +0000] "GET /assets/js/jquery.fitvids.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:25:44 +0000] "GET /assets/js/index.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:25:44 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.0" 200 2580 "https://kalipare.com/assets/css/screen.css?v=520a93ff7d" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:25:44 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+188.166.186.3 - - [05/Jul/2017:15:27:37 +0000] "GET / HTTP/1.0" 200 4945 "-" "curl/7.47.0"
+180.249.44.2 - - [05/Jul/2017:15:27:43 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:27:43 +0000] "GET /assets/css/screen.css?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:27:43 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.0" 200 2580 "https://kalipare.com/assets/css/screen.css?v=520a93ff7d" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:27:44 +0000] "GET /assets/js/index.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:27:44 +0000] "GET /assets/js/jquery.fitvids.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:27:44 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:27:44 +0000] "GET /assets/css/screen.css?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:27:44 +0000] "GET /assets/js/jquery.fitvids.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:27:45 +0000] "GET /assets/js/index.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:27:45 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.0" 200 2580 "https://kalipare.com/assets/css/screen.css?v=520a93ff7d" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:28:11 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) CriOS/59.0.3071.102 Mobile/14F89 Safari/602.1"
+180.249.44.2 - - [05/Jul/2017:15:28:12 +0000] "GET /assets/css/screen.css?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) CriOS/59.0.3071.102 Mobile/14F89 Safari/602.1"
+180.249.44.2 - - [05/Jul/2017:15:28:12 +0000] "GET /assets/js/jquery.fitvids.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) CriOS/59.0.3071.102 Mobile/14F89 Safari/602.1"
+180.249.44.2 - - [05/Jul/2017:15:28:12 +0000] "GET /assets/js/index.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) CriOS/59.0.3071.102 Mobile/14F89 Safari/602.1"
+180.249.44.2 - - [05/Jul/2017:15:28:12 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.0" 200 2580 "https://kalipare.com/" "Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) CriOS/59.0.3071.102 Mobile/14F89 Safari/602.1"
+180.249.44.2 - - [05/Jul/2017:15:28:13 +0000] "GET /favicon.ico HTTP/1.0" 200 - "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) CriOS/59.0.3071.102 Mobile/14F89 Safari/602.1"
+180.249.44.2 - - [05/Jul/2017:15:41:30 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:41:30 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://www.kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:42:20 +0000] "GET /ghost/editor/ HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:42:21 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:42:21 +0000] "POST /ghost/api/v0.1/authentication/token HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:42:21 +0000] "GET /ghost/api/v0.1/users/me/?include=roles&status=all HTTP/1.0" 200 810 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:42:21 +0000] "GET /ghost/api/v0.1/notifications/ HTTP/1.0" 200 20 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:42:21 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:42:21 +0000] "GET /ghost/api/v0.1/tags/?limit=all HTTP/1.0" 200 426 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:42:22 +0000] "GET /ghost/api/v0.1/users/?limit=all&include=roles HTTP/1.0" 200 901 "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:42:29 +0000] "GET /ghost/api/v0.1/posts/?page=1&limit=15&status=all&staticPages=all&include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:42:35 +0000] "GET /ghost/api/v0.1/posts/2/?status=all&staticPages=all&include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/2/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+66.249.65.150 - - [05/Jul/2017:15:54:06 +0000] "GET /robots.txt HTTP/1.0" 200 73 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.65.150 - - [05/Jul/2017:15:54:06 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.65.146 - - [05/Jul/2017:15:55:57 +0000] "GET /assets/js/jquery.fitvids.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.65.148 - - [05/Jul/2017:15:55:58 +0000] "GET /assets/js/index.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.65.150 - - [05/Jul/2017:15:55:59 +0000] "GET /assets/css/screen.css?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+180.249.44.2 - - [05/Jul/2017:15:57:09 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:15:57:11 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:16:39:58 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+162.210.196.129 - - [05/Jul/2017:16:44:11 +0000] "GET /robots.txt HTTP/1.0" 200 73 "-" "Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)"
+162.210.196.129 - - [05/Jul/2017:16:44:18 +0000] "GET / HTTP/1.0" 200 4945 "-" "Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)"
+162.210.196.129 - - [05/Jul/2017:16:44:56 +0000] "GET /robots.txt HTTP/1.0" 200 73 "-" "Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)"
+162.210.196.129 - - [05/Jul/2017:16:45:01 +0000] "GET / HTTP/1.0" 200 4945 "-" "Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)"
+46.229.164.99 - - [05/Jul/2017:16:48:10 +0000] "GET /robots.txt HTTP/1.0" 200 73 "-" "Mozilla/5.0 (compatible; SemrushBot/1.2~bl; +http://www.semrush.com/bot.html)"
+180.249.44.2 - - [05/Jul/2017:16:52:16 +0000] "POST /ghost/api/v0.1/authentication/token HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:16:52:16 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:17:11:40 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:17:18:27 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:17:18:31 +0000] "GET /p/1c799608-67c1-43ea-9de4-5257fcf60be9/ HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:17:39:05 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:17:48:13 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:17:48:15 +0000] "GET /p/1c799608-67c1-43ea-9de4-5257fcf60be9/ HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:17:51:29 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:17:51:30 +0000] "GET /p/1c799608-67c1-43ea-9de4-5257fcf60be9/ HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:17:51:30 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/p/1c799608-67c1-43ea-9de4-5257fcf60be9/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:17:58:18 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:17:58:20 +0000] "GET /p/1c799608-67c1-43ea-9de4-5257fcf60be9/ HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:18:03:01 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:18:03:03 +0000] "GET /p/1c799608-67c1-43ea-9de4-5257fcf60be9/ HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:18:31:50 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:18:31:56 +0000] "GET /p/1c799608-67c1-43ea-9de4-5257fcf60be9/ HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+74.125.76.35 - - [05/Jul/2017:19:03:14 +0000] "GET /feeds/posts/default HTTP/1.0" 301 - "-" "FeedBurner/1.0 (http://www.FeedBurner.com)"
+74.125.76.32 - - [05/Jul/2017:19:03:15 +0000] "GET /feeds/posts/default/ HTTP/1.0" 404 - "-" "FeedBurner/1.0 (http://www.FeedBurner.com)"
+180.249.44.2 - - [05/Jul/2017:19:26:07 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:19:26:08 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+69.162.124.232 - - [05/Jul/2017:19:33:43 +0000] "GET / HTTP/1.0" 200 - "http://blog.novalagung.com" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)"
+207.244.83.211 - - [05/Jul/2017:19:36:28 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+207.244.83.211 - - [05/Jul/2017:19:36:29 +0000] "GET /assets/css/screen.css?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+207.244.83.211 - - [05/Jul/2017:19:36:30 +0000] "GET /assets/js/jquery.fitvids.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+207.244.83.211 - - [05/Jul/2017:19:36:30 +0000] "GET /assets/js/index.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+207.244.83.211 - - [05/Jul/2017:19:36:30 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.0" 200 2580 "https://kalipare.com/assets/css/screen.css?v=520a93ff7d" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+207.244.83.211 - - [05/Jul/2017:19:36:32 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+69.162.124.232 - - [05/Jul/2017:19:38:43 +0000] "GET / HTTP/1.0" 200 - "http://blog.novalagung.com" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)"
+180.249.44.2 - - [05/Jul/2017:19:40:38 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+69.162.124.232 - - [05/Jul/2017:19:43:43 +0000] "HEAD / HTTP/1.0" 200 4945 "http://blog.novalagung.com" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)"
+69.162.124.232 - - [05/Jul/2017:19:48:43 +0000] "HEAD / HTTP/1.0" 200 4945 "http://blog.novalagung.com" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)"
+180.249.44.2 - - [05/Jul/2017:19:50:23 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+69.162.124.232 - - [05/Jul/2017:19:53:43 +0000] "HEAD / HTTP/1.0" 200 4945 "http://blog.novalagung.com" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)"
+180.249.44.2 - - [05/Jul/2017:19:57:25 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:19:57:45 +0000] "GET /ghost/api/v0.1/slugs/post/ghost-ssl-lets-encrypt-ubuntu-digital-ocean/ HTTP/1.0" 200 66 "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:19:57:46 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+69.162.124.232 - - [05/Jul/2017:19:58:42 +0000] "HEAD / HTTP/1.0" 200 4945 "http://blog.novalagung.com" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)"
+180.249.44.2 - - [05/Jul/2017:19:59:27 +0000] "POST /ghost/api/v0.1/uploads/ HTTP/1.0" 200 50 "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:19:59:27 +0000] "GET /content/images/2017/07/markus-spiske-153537.jpg HTTP/1.0" 200 1937516 "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:19:59:27 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:19:59:32 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:19:59:56 +0000] "POST /ghost/api/v0.1/uploads/ HTTP/1.0" 200 52 "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:19:59:56 +0000] "GET /content/images/2017/07/markus-spiske-153537-1.jpg HTTP/1.0" 200 1024461 "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:19:59:56 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:00:07 +0000] "GET /ghost/api/v0.1/slugs/post/ghost-ubuntu-digital-ocean-ssl-lets-encrypt/ HTTP/1.0" 200 66 "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:00:07 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:00:08 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:00:17 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:00:19 +0000] "GET /ghost/api/v0.1/posts/?page=1&limit=15&status=all&staticPages=all&include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:00:23 +0000] "GET /ghost/api/v0.1/posts/1/?status=all&staticPages=all&include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:00:27 +0000] "PUT /ghost/api/v0.1/posts/1/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/1/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:00:32 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:00:41 +0000] "GET /ghost/api/v0.1/posts/?page=1&limit=15&status=all&staticPages=all&include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:00:43 +0000] "GET /ghost/api/v0.1/posts/2/?status=all&staticPages=all&include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/2/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:01:32 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/2/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:01:34 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/2/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:01:37 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/2/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:01:53 +0000] "GET /ghost/api/v0.1/slugs/post/ghost-ubuntu-digital-ocean-domain-ssl-lets-encrypt/ HTTP/1.0" 200 73 "https://kalipare.com/ghost/editor/2/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:01:53 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/2/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:02:51 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/2/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+69.162.124.232 - - [05/Jul/2017:20:03:42 +0000] "HEAD / HTTP/1.0" 200 4073 "http://blog.novalagung.com" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)"
+180.249.44.2 - - [05/Jul/2017:20:03:51 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/2/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:03:54 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/2/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:04:03 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/2/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:04:06 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/2/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:04:09 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:04:10 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:04:10 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:04:11 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:04:11 +0000] "GET /assets/css/screen.css?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:04:12 +0000] "GET /assets/js/jquery.fitvids.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:04:12 +0000] "GET /assets/js/index.js?v=520a93ff7d HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:04:12 +0000] "GET /assets/fonts/casper-icons.woff?v=1 HTTP/1.0" 200 2580 "https://kalipare.com/assets/css/screen.css?v=520a93ff7d" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:04:12 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:04:13 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:04:13 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:04:42 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/2/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:04:42 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/2/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:04:52 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/2/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:05:02 +0000] "PUT /ghost/api/v0.1/posts/2/?include=tags HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/2/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:05:18 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:05:30 +0000] "GET /ghost/api/v0.1/configuration/timezones/ HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/2/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:05:30 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/editor/2/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:05:39 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:05:54 +0000] "GET /ghost/settings/general/ HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:05:55 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:05:55 +0000] "POST /ghost/api/v0.1/authentication/token HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:05:55 +0000] "GET /ghost/api/v0.1/users/me/?include=roles&status=all HTTP/1.0" 200 810 "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:05:55 +0000] "GET /ghost/api/v0.1/configuration/timezones/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:05:55 +0000] "GET /ghost/api/v0.1/notifications/ HTTP/1.0" 200 20 "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:05:55 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:07:10 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+
+ERROR: Unknown Request error. 
+ http://kalipare.com/content/images/2017/07/markus-spiske-153537-1.jpg 
+ 
+ Error: Unknown Request error.
+    at IncomingMessage.<anonymous> (/var/www/ghost/core/server/utils/image-size-from-url.js:79:31)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:128:9) 
+
+180.249.44.2 - - [05/Jul/2017:20:07:12 +0000] "GET /ghost-ubuntu-digital-ocean-domain-ssl-lets-encrypt/ HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:07:16 +0000] "POST /ghost/api/v0.1/uploads/ HTTP/1.0" 200 53 "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:07:16 +0000] "GET /content/images/2017/07/sai-kiran-anagani-61187.jpg HTTP/1.0" 200 2228369 "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:07:20 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:07:22 +0000] "GET /ghost-ubuntu-digital-ocean-domain-ssl-lets-encrypt/ HTTP/1.0" 304 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+
+ERROR: Unknown Request error. 
+ http://kalipare.com/content/images/2017/07/sai-kiran-anagani-61187.jpg 
+ 
+ Error: Unknown Request error.
+    at IncomingMessage.<anonymous> (/var/www/ghost/core/server/utils/image-size-from-url.js:79:31)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:128:9) 
+
+180.249.44.2 - - [05/Jul/2017:20:07:29 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:07:35 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:07:36 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:07:40 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:07:40 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:07:50 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:07:51 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:07:51 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:08:01 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:08:04 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:08:04 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+69.162.124.232 - - [05/Jul/2017:20:08:42 +0000] "HEAD / HTTP/1.0" 200 5396 "http://blog.novalagung.com" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)"
+180.249.44.2 - - [05/Jul/2017:20:09:02 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:09:16 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:09:25 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:09:32 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:09:38 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:09:38 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:09:47 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:09:51 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:09:55 +0000] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:10:08 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:11:04 +0000] "POST /ghost/api/v0.1/uploads/ HTTP/1.0" 200 63 "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:11:04 +0000] "GET /content/images/2017/07/photo-1420768255295-e871cbf6eb81.jpeg HTTP/1.0" 200 90593 "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:11:06 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+
+ERROR: Unknown Request error. 
+ http://kalipare.com/content/images/2017/07/photo-1420768255295-e871cbf6eb81.jpeg 
+ 
+ Error: Unknown Request error.
+    at IncomingMessage.<anonymous> (/var/www/ghost/core/server/utils/image-size-from-url.js:79:31)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:128:9) 
+
+180.249.44.2 - - [05/Jul/2017:20:11:09 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:11:32 +0000] "POST /ghost/api/v0.1/uploads/ HTTP/1.0" 200 65 "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:11:32 +0000] "GET /content/images/2017/07/photo-1420768255295-e871cbf6eb81-1.jpeg HTTP/1.0" 200 131177 "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:11:35 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+
+ERROR: Unknown Request error. 
+ http://kalipare.com/content/images/2017/07/photo-1420768255295-e871cbf6eb81-1.jpeg 
+ 
+ Error: Unknown Request error.
+    at IncomingMessage.<anonymous> (/var/www/ghost/core/server/utils/image-size-from-url.js:79:31)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:128:9) 
+
+180.249.44.2 - - [05/Jul/2017:20:11:38 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:11:41 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:11:44 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:12:15 +0000] "GET /ghost-ubuntu-digital-ocean-domain-ssl-lets-encrypt/ HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:12:21 +0000] "GET /ghost-ubuntu-digital-ocean-domain-ssl-lets-encrypt/ HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:12:37 +0000] "GET /ghost-ubuntu-digital-ocean-domain-ssl-lets-encrypt/ HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:13:00 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:13:09 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:13:25 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/navigation/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:13:27 +0000] "GET /ghost-ubuntu-digital-ocean-domain-ssl-lets-encrypt/ HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:13:27 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/ghost-ubuntu-digital-ocean-domain-ssl-lets-encrypt/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:13:36 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+69.162.124.232 - - [05/Jul/2017:20:13:42 +0000] "HEAD / HTTP/1.0" 200 4666 "http://blog.novalagung.com" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)"
+180.249.44.2 - - [05/Jul/2017:20:13:49 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/navigation/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:13:52 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:13:52 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:14:01 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/navigation/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:14:02 +0000] "GET / HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:14:02 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:14:07 +0000] "GET /ghost/api/v0.1/tags/?page=1&limit=15&include=count.posts HTTP/1.0" 200 770 "https://kalipare.com/ghost/settings/navigation/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:14:17 +0000] "PUT /ghost/api/v0.1/tags/2/ HTTP/1.0" 200 319 "https://kalipare.com/ghost/settings/tags/server/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:14:25 +0000] "DELETE /ghost/api/v0.1/tags/1/ HTTP/1.0" 204 - "https://kalipare.com/ghost/settings/tags/getting-started/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+112.51.101.38 - - [05/Jul/2017:20:14:38 +0000] "GET /ghost-ubuntu-digital-ocean-ssl-lets-encrypt/ HTTP/1.0" 404 - "-" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)"
+180.249.44.2 - - [05/Jul/2017:20:14:55 +0000] "GET /ghost/settings/tags/getting-started/ HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:14:56 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/tags/getting-started/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:14:56 +0000] "POST /ghost/api/v0.1/authentication/token HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/tags/getting-started/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:14:56 +0000] "GET /ghost/api/v0.1/users/me/?include=roles&status=all HTTP/1.0" 200 810 "https://kalipare.com/ghost/settings/tags/getting-started/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:14:56 +0000] "GET /ghost/api/v0.1/notifications/ HTTP/1.0" 200 20 "https://kalipare.com/ghost/settings/tags/getting-started/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:14:56 +0000] "GET /ghost/api/v0.1/tags/?page=1&limit=15&include=count.posts HTTP/1.0" 200 425 "https://kalipare.com/ghost/settings/tags/getting-started/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+
+ERROR: Tag not found. 
+ 
+ Error
+    at Error.NotFoundError (/var/www/ghost/core/server/errors/not-found-error.js:6:18)
+    at formatResponse (/var/www/ghost/core/server/api/tags.js:84:35)
+    at tryCatcher (/var/www/ghost/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/var/www/ghost/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/var/www/ghost/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/var/www/ghost/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/var/www/ghost/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/var/www/ghost/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/var/www/ghost/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/var/www/ghost/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5) 
+
+180.249.44.2 - - [05/Jul/2017:20:14:56 +0000] "GET /ghost/api/v0.1/tags/slug/getting-started/ HTTP/1.0" 404 69 "https://kalipare.com/ghost/settings/tags/getting-started/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:14:56 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/tags/getting-started/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:14:56 +0000] "GET /ghost/api/v0.1/notifications/ HTTP/1.0" 200 20 "https://kalipare.com/ghost/settings/tags/getting-started/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:14:56 +0000] "POST /ghost/api/v0.1/authentication/token HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/tags/getting-started/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:14:57 +0000] "GET /ghost/img/404-ghost@2x.png HTTP/1.0" 200 7958 "https://kalipare.com/ghost/settings/tags/getting-started/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:14:58 +0000] "GET /ghost/api/v0.1/tags/?page=1&limit=15&include=count.posts HTTP/1.0" 200 425 "https://kalipare.com/ghost/settings/tags/getting-started/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:15:00 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/tags/server/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:15:00 +0000] "GET /ghost/codemirror/codemirror.css HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/code-injection/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:15:00 +0000] "GET /ghost/codemirror/codemirror.js HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/code-injection/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:15:03 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/code-injection/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:15:03 +0000] "GET /ghost/img/slackicon.png HTTP/1.0" 200 18136 "https://kalipare.com/ghost/settings/apps/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:15:03 +0000] "GET /ghost/img/ampicon.png HTTP/1.0" 200 8715 "https://kalipare.com/ghost/settings/apps/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:15:09 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/apps/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:15:18 +0000] "GET /ghost/api/v0.1/configuration/timezones/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/labs/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:15:18 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/labs/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:15:19 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:15:20 +0000] "GET /ghost/api/v0.1/settings/?type=blog%2Ctheme%2Cprivate HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/navigation/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:15:30 +0000] "PUT /ghost/api/v0.1/settings/ HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:15:35 +0000] "GET /ghost-ubuntu-digital-ocean-domain-ssl-lets-encrypt/ HTTP/1.0" 200 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+219.139.72.81 - - [05/Jul/2017:20:15:37 +0000] "GET /ghost-ubuntu-digital-ocean-ssl-lets-encrypt/ HTTP/1.0" 404 - "-" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)"
+113.119.198.177 - - [05/Jul/2017:20:16:28 +0000] "GET /ghost-ubuntu-digital-ocean-ssl-lets-encrypt/ HTTP/1.0" 404 - "-" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)"
+69.162.124.232 - - [05/Jul/2017:20:18:42 +0000] "HEAD / HTTP/1.0" 200 5189 "http://blog.novalagung.com" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)"
+180.249.44.2 - - [05/Jul/2017:20:22:00 +0000] "GET /ghost-ubuntu-digital-ocean-domain-ssl-lets-encrypt/ HTTP/1.0" 304 - "https://kalipare.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+180.249.44.2 - - [05/Jul/2017:20:22:05 +0000] "GET /favicon.ico HTTP/1.0" 200 - "https://kalipare.com/ghost-ubuntu-digital-ocean-domain-ssl-lets-encrypt/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+69.162.124.232 - - [05/Jul/2017:20:23:42 +0000] "HEAD / HTTP/1.0" 200 5189 "http://blog.novalagung.com" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)"
+180.249.44.2 - - [05/Jul/2017:20:25:38 +0000] "POST /ghost/api/v0.1/authentication/token HTTP/1.0" 200 - "https://kalipare.com/ghost/settings/general/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
