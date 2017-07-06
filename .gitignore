@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# dev database
+content/data/ghost-dev.db
