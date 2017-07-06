@@ -320,8 +320,6 @@ h6 {
 a {
     color: #4A4A4A;
     transition: color 0.3s ease;
-    text-decoration: none;
-    border-bottom: 1px solid rgba(74, 74, 74, 0.2);
 }
 
 a:hover {
@@ -1247,6 +1245,10 @@ body.page-template .post-title {
 
 /* Keep images centered, and allow images wider than the main
    text column to break out. */
+.post-content a {
+    text-decoration: none;
+    border-bottom: 1px solid rgba(74, 74, 74, 0.2);
+}
 .post-content img {
     display: block;
     max-width: 84%;
