@@ -115,9 +115,83 @@ td, th{ padding: 0; }
     font-style: normal;
 }
 
+@font-face {
+    font-family: "SF UI Text";
+    src: url("../fonts/SFText-Bold.otf?v=1") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SF UI Text";
+    src: url("../fonts/SFText-BoldItalic.otf?v=1") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "SF UI Text";
+    src: url("../fonts/SFText-Light.otf?v=1") format("opentype");
+    font-weight: light;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SF UI Text";
+    src: url("../fonts/SFText-LightItalic.otf?v=1") format("opentype");
+    font-weight: light;
+    font-style: italic;
+}
+@font-face {
+    font-family: "SF UI Text";
+    src: url("../fonts/SFText-Regular.otf?v=1") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SF UI Text";
+    src: url("../fonts/SFText-RegularItalic.otf?v=1") format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Bold.ttf?v=1") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-BoldItalic.ttf?v=1") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Light.ttf?v=1") format("truetype");
+    font-weight: light;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-LightItalic.ttf?v=1") format("truetype");
+    font-weight: light;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.ttf?v=1") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Italic.ttf?v=1") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
 /* Apply these base styles to all icons */
 [class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: "casper-icons", "Open Sans", sans-serif;
+    font-family: "casper-icons", "SF UI Text", "Open Sans", sans-serif;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -184,10 +258,10 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Merriweather", serif;
-    letter-spacing: 0.01rem;
-    font-size: 1.8rem;
-    line-height: 1.75em;
+    font-family: "SF UI Text", "Merriweather", serif;
+    letter-spacing: 0rem;
+    font-size: 1.6rem;
+    line-height: 1.55em;
     color: #3A4145;
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
@@ -210,7 +284,7 @@ h4, h5, h6 {
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     color: #2E2E2E;
     line-height: 1.15em;
-    margin: 0 0 0.4em 0;
+    margin: 0 0 0.6em 0;
     font-family: "Open Sans", sans-serif;
     text-rendering: geometricPrecision;
 }
@@ -246,6 +320,8 @@ h6 {
 a {
     color: #4A4A4A;
     transition: color 0.3s ease;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(74, 74, 74, 0.2);
 }
 
 a:hover {
@@ -256,7 +332,7 @@ p, ul, ol, dl {
     -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-    margin: 0 0 1.75em 0;
+    margin: 0 0 1.55em 0;
     text-rendering: geometricPrecision;
 }
 
@@ -311,8 +387,8 @@ hr {
 blockquote {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 1.75em 0 1.75em -2.2em;
-    padding: 0 0 0 1.75em;
+    margin: 1.55em 0 1.55em -2.2em;
+    padding: 0 0 0 1.55em;
     border-left: #4A4A4A 0.4em solid;
 }
 
@@ -324,7 +400,7 @@ blockquote p {
 blockquote small {
     display: inline-block;
     margin: 0.8em 0 0.8em 1.5em;
-    font-size: 0.9em;
+    font-size: 0.8em;
     color: #CCC;
 }
 
@@ -356,12 +432,12 @@ code, tt {
 pre {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 0 0 1.75em 0;
+    margin: 0 0 1.55em 0 !important;
     border: #E3EDF3 1px solid;
     width: 100%;
     padding: 10px;
     font-family: Inconsolata, monospace, sans-serif;
-    font-size: 0.9em;
+    font-size: 0.8em;
     white-space: pre;
     overflow: auto;
     background: #F7FAFB;
@@ -383,7 +459,7 @@ kbd {
     border: #CCC 1px solid;
     color: #666;
     text-shadow: #FFF 0 1px 0;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: 700;
     background: #F4F4F4;
     border-radius: 4px;
@@ -395,7 +471,7 @@ kbd {
 table {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 1.75em 0;
+    margin: 1.55em 0;
     width: 100%;
     max-width: 100%;
     background-color: transparent;
@@ -437,7 +513,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 
 iframe, .fluid-width-video-wrapper {
     display: block;
-    margin: 1.75em 0;
+    margin: 1.55em 0;
 }
 
 /* When a video is inside the fitvids wrapper, drop the
@@ -958,8 +1034,8 @@ body.nav-opened .nav {
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Merriweather", serif;
-    letter-spacing: 0.01rem;
+    font-family: "SF UI Text", "Merriweather", serif;
+    letter-spacing: 0rem;
     color: rgba(255,255,255,0.8);
 }
 
@@ -1033,7 +1109,7 @@ body.page-template .post-title {
 
 .post-excerpt p {
     margin: 0;
-    font-size: 0.9em;
+    font-size: 0.8em;
     line-height: 1.7em;
 }
 
@@ -1173,9 +1249,9 @@ body.page-template .post-title {
    text column to break out. */
 .post-content img {
     display: block;
-    max-width: 126%;
+    max-width: 84%;
     height: auto;
-    padding: 0.6em 0;
+    padding: 0;
     /* Centers an image by (1) pushing its left edge to the
        center of its container and (2) shifting the entire image
        in the opposite direction by half its own width.
@@ -1401,8 +1477,8 @@ body.page-template .post-title {
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
-    font-family: "Merriweather", serif;
-    letter-spacing: 0.01rem;
+    font-family: "SF UI Text", "Merriweather", serif;
+    letter-spacing: 0rem;
     font-size: 1.7rem;
 }
 .author-meta span {
@@ -1565,7 +1641,7 @@ body.page-template .post-title {
 
 /* Pastebin */
 .content .embedPastebin {
-    margin-bottom: 1.75em;
+    margin-bottom: 1.55em;
 }
 
 
@@ -2018,7 +2094,7 @@ body.page-template .post-title {
     }
 
     hr {
-        margin: 1.75em 0;
+        margin: 1.55em 0;
     }
 
     p, ul, ol, dl {
