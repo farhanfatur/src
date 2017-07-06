@@ -59,3 +59,7 @@ typings/
 
 # dev database
 content/data/ghost-dev.db
+
+# nohup log
+nohup.out
+
