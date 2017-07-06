@@ -130,13 +130,13 @@ td, th{ padding: 0; }
 @font-face {
     font-family: "SF UI Text";
     src: url("../fonts/SFText-Light.otf?v=1") format("opentype");
-    font-weight: light;
+    font-weight: lighter;
     font-style: normal;
 }
 @font-face {
     font-family: "SF UI Text";
     src: url("../fonts/SFText-LightItalic.otf?v=1") format("opentype");
-    font-weight: light;
+    font-weight: lighter;
     font-style: italic;
 }
 @font-face {
@@ -167,13 +167,13 @@ td, th{ padding: 0; }
 @font-face {
     font-family: "Open Sans";
     src: url("../fonts/OpenSans-Light.ttf?v=1") format("truetype");
-    font-weight: light;
+    font-weight: lighter;
     font-style: normal;
 }
 @font-face {
     font-family: "Open Sans";
     src: url("../fonts/OpenSans-LightItalic.ttf?v=1") format("truetype");
-    font-weight: light;
+    font-weight: lighter;
     font-style: italic;
 }
 @font-face {
