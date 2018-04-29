@@ -58,7 +58,7 @@ typings/
 .env
 
 # dev database
-content/data/ghost-dev.db
+# content/data/ghost-dev.db
 
 # nohup log
 nohup.out
